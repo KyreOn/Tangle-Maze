@@ -11,6 +11,8 @@ public class Door : MonoBehaviour
     [SerializeField] 
     float speed = 1;
 
+    [SerializeField] private AudioSource doorOpenAudioSource = null;
+
     public bool isOpen;
     public bool isLocked;
     public int id;
@@ -29,6 +31,7 @@ public class Door : MonoBehaviour
         }
         else
         {
+            doorOpenAudioSource.Play();
             CloseDoor();
         }
     }
