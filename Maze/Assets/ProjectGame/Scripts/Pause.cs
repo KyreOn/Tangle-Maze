@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviour
 {
     [HideInInspector]
@@ -16,6 +16,11 @@ public class Pause : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        var levelId = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("LastLevel", levelId);
+        if (PlayerPrefs.HasKey("MaxLevel") && PlayerPrefs.GetInt("MaxLevel") <= levelId ||
+            !PlayerPrefs.HasKey("MaxLevel"))
+            PlayerPrefs.SetInt("MaxLevel", levelId);
         playerLook = player.GetComponent<PlayerLook>();
     }
 

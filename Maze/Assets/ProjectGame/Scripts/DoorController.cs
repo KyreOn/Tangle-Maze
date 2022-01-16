@@ -29,19 +29,6 @@ public class DoorController : MonoBehaviour
                     Door door = hit.collider.GetComponent<Door>();
                     if (door.isLocked)
                     {
-                        //for (int i = 0; i < keyList.Count; i++)
-                        //{
-                        //    if (keyList[i].id == door.id)
-                        //    {
-                        //        door.isLocked = false;
-                        //        door.isOpen = !door.isOpen;
-                        //        keyList.Remove(keyList[i]);
-                        //    }
-                        //    else
-                        //    {
-                        //        Debug.Log("Нет ключа");
-                        //    }
-                        //}
                         var inventory = GameObject.Find("Player").GetComponentInChildren<Inventory>();
                         foreach (var item in inventory.items)
                         {

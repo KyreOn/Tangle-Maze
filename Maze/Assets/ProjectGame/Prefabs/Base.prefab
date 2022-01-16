@@ -629,6 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2e0917edcd2c144a26e6aead961db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PauseManager: {fileID: 8375797014525239081}
 --- !u!1 &8375797016479195242
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,6 +889,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4440683777318234184, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440683777318234188, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4440683777473396038, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
         type: 3}
       propertyPath: icons.Array.data[0]
@@ -897,6 +908,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Alpha
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440683777556725645, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440683777556725645, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440683777556725645, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8375797016450238038}
+    - target: {fileID: 4440683777556725645, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440683777556725645, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenNextLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440683777556725645, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PauseButtons, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440683777556725645, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4440683777610771979, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
         type: 3}
