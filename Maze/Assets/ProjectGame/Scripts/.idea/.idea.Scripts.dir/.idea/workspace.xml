@@ -21,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LevelSelection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CollectableItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PauseButtons.cs" root0="SKIP_HIGHLIGHTING" />
@@ -53,7 +54,7 @@
       <workItem from="1642269024291" duration="339000" />
       <workItem from="1642335941573" duration="3505000" />
       <workItem from="1642341440002" duration="4177000" />
-      <workItem from="1642368880341" duration="713000" />
+      <workItem from="1642368880341" duration="2773000" />
     </task>
     <servers />
   </component>

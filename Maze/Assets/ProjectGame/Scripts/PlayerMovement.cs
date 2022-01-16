@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     float playerHeight = 2f;
-
+    public AudioClip walkingSound;
+    public AudioClip sprintingSound;
+    private AudioSource audioSource;
     [SerializeField] Transform orientation;
 
     [Header("Movement")]
@@ -64,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -101,10 +104,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(sprintKey) && isGrounded)
         {
             moveSpeed = Mathf.Lerp(moveSpeed, sprintSpeed, acceleration * Time.deltaTime);
+            audioSource.clip = sprintingSound;
         }
         else
         {
             moveSpeed = Mathf.Lerp(moveSpeed, walkSpeed, acceleration * Time.deltaTime);
+            audioSource.clip = walkingSound;
         }
     }
 
@@ -129,10 +134,24 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isGrounded && !OnSlope())
         {
+            if (moveDirection.magnitude != 0)
+            {
+                if (!audioSource.isPlaying)
+                    audioSource.Play();
+            }
+            else
+                audioSource.Stop();
             rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier, ForceMode.Acceleration);
         }
         else if (isGrounded && OnSlope())
         {
+            if (moveDirection.magnitude != 0)
+            {
+                if (!audioSource.isPlaying)
+                    audioSource.Play();
+            }
+            else
+                audioSource.Stop();
             rb.AddForce(slopeMoveDirection.normalized * moveSpeed * movementMultiplier, ForceMode.Acceleration);
         }
         else if (!isGrounded)
