@@ -9,6 +9,7 @@ public class DoorController : MonoBehaviour
     List<Key> keyList;
     public TMP_Text attention;
     private float timeToHide;
+	[SerializeField] private AudioSource doorOpenAudioSource = null;
 
     void Start()
     {
@@ -37,6 +38,7 @@ public class DoorController : MonoBehaviour
                                 door.isLocked = false;
                                 door.isOpen = !door.isOpen;
                                 inventory.RemoveItem(door.id);
+								doorOpenAudioSource.Play();
                                 break;
                             }
                         }

@@ -3732,7 +3732,6 @@ MonoBehaviour:
   openDoor: -120
   closeDoor: 0
   speed: 1
-  doorOpenAudioSource: {fileID: 1566630076}
   isOpen: 0
   isLocked: 1
   id: 0
@@ -96342,5 +96341,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 10.6
       objectReference: {fileID: 0}
+    - target: {fileID: 8375797016479196048, guid: 6f4cc106f42d28b4a81441253aecfc88,
+        type: 3}
+      propertyPath: doorOpenAudioSource
+      value: 
+      objectReference: {fileID: 1566630076}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f4cc106f42d28b4a81441253aecfc88, type: 3}
