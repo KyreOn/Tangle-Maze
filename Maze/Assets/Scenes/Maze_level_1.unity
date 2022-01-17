@@ -71197,6 +71197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Wood_Platform_01
       objectReference: {fileID: 0}
+    - target: {fileID: 156114, guid: 480822748dfc6ba478baf6bc23e905e2, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 473050, guid: 480822748dfc6ba478baf6bc23e905e2, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -84315,6 +84319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Wood_Platform_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 156114, guid: 480822748dfc6ba478baf6bc23e905e2, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 473050, guid: 480822748dfc6ba478baf6bc23e905e2, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -96426,6 +96434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: walkSpeed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375797016479195243, guid: 6f4cc106f42d28b4a81441253aecfc88,
+        type: 3}
+      propertyPath: sprintSpeed
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8375797016479195243, guid: 6f4cc106f42d28b4a81441253aecfc88,
         type: 3}
