@@ -15,6 +15,7 @@ MonoBehaviour:
   id: 0
   icon: {fileID: 21300000, guid: 7ce1915c74ede8a41afae7ec6d3c57cb, type: 3}
   distance: 2
-  attention: {fileID: 0}
+  attention: {fileID: 781312151168397671, guid: 6c213fee0eb837541aafe586a0c5465b,
+    type: 3}
   doorOpenAudioSource: {fileID: 832714579301371061, guid: 8ce8ba1f479671344a0afbcbe7f12d53,
     type: 3}

@@ -2,40 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7c49b4-7852-422d-a42a-85c4c7e6a6e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActiveItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActiveItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/SampleActive.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/SampleActive.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/aItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/aItem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/riderModule.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InteractController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InteractController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Items/Keygold.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Items/Keygold.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CollectableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CollectableItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/DoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/DoorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/Inventory.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/Inventory.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/LightingData.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/ReflectionProbe-0.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/UI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +24,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.5.0/Runtime/Core/PolyShape.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ProjectGame/Scripts/CollectableItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActivatableObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -122,7 +101,7 @@
       <workItem from="1640600313621" duration="4489000" />
       <workItem from="1640635377676" duration="13898000" />
       <workItem from="1654548041093" duration="4156000" />
-      <workItem from="1654604728277" duration="8301000" />
+      <workItem from="1654604728277" duration="16827000" />
     </task>
     <servers />
   </component>

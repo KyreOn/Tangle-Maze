@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Shootable
   - Door
+  - Interactable
   layers:
   - Default
   - TransparentFX
