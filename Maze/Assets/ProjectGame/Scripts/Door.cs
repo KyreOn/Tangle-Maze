@@ -10,6 +10,7 @@ public class Door : MonoBehaviour
     float closeDoor;
     [SerializeField] 
     float speed = 1;
+    
 
 
     public bool isOpen;

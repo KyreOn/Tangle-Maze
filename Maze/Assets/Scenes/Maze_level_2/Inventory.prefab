@@ -660,6 +660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf743a6a066a5547b703ca170e871a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chosenSlotSprite: {fileID: 21300000, guid: e6fd220b45f62724dacc78134cd37660, type: 3}
+  notChosenSlotSprite: {fileID: 21300000, guid: b66a651d5cf6f464a9c20cea8ed1f320,
+    type: 3}
   icons:
   - {fileID: 0}
   - {fileID: 8136923194983040076}
@@ -667,6 +670,13 @@ MonoBehaviour:
   - {fileID: 8136923193614304739}
   - {fileID: 8136923194553225380}
   - {fileID: 8136923195567764082}
+  invCells:
+  - {fileID: 8136923194489995349}
+  - {fileID: 8136923193600451137}
+  - {fileID: 8136923195273241848}
+  - {fileID: 8136923193701812919}
+  - {fileID: 8136923194305135077}
+  - {fileID: 8136923193834358986}
 --- !u!225 &8136923194665433408
 CanvasGroup:
   m_ObjectHideFlags: 0

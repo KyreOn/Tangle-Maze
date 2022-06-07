@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class Item : ScriptableObject
-{   
-    public int id;
-    public Sprite icon;
+public class Item : aItem
+{
+    public override void Action()
+    {
+        throw new System.NotImplementedException();
+    }
 }

@@ -2,23 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7c49b4-7852-422d-a42a-85c4c7e6a6e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActiveItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActiveItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/SampleActive.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/SampleActive.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/aItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/aItem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Items/Keygold.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Items/Keygold.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CollectableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CollectableItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Door.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/DoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/DoorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Pause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Pause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Trigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Trigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/LightingData.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-1_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-1_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/Inventory.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/Inventory.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +64,9 @@
       <option value="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Trigger.cs" />
     </changedPaths>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="22reOatlVRkc5NN6Qc0O3UEMcZJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,13 +78,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Maze\Tangle Maze.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Я\Desktop\Maze" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -74,6 +104,7 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -90,12 +121,15 @@
       <updated>1640600168960</updated>
       <workItem from="1640600313621" duration="4489000" />
       <workItem from="1640635377676" duration="13898000" />
+      <workItem from="1654548041093" duration="4156000" />
+      <workItem from="1654604728277" duration="8301000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,7 +142,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

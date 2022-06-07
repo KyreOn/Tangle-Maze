@@ -3,7 +3,10 @@ guid: 4cf743a6a066a5547b703ca170e871a0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - chosenSlotSprite: {fileID: 21300000, guid: e6fd220b45f62724dacc78134cd37660, type: 3}
+  - notChosenSlotSprite: {fileID: 21300000, guid: b66a651d5cf6f464a9c20cea8ed1f320,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

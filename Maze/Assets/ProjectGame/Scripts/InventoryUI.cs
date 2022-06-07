@@ -6,14 +6,20 @@ using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
+    [SerializeField] private Sprite chosenSlotSprite;
+    [SerializeField] private Sprite notChosenSlotSprite;
     [SerializeField] private List<Image> icons = new List<Image>();
+    [SerializeField] private List<Image> invCells = new List<Image>();
     private float timeToHide;
     public void UpdateUI(Inventory inventory)
     {
         var canvasGroup = gameObject.GetComponent<CanvasGroup>();
         canvasGroup.alpha = 1;
-        for (var i = 0; i < inventory.GetSize(); i++)
+        timeToHide = 0;
+        Debug.Log(inventory.chosenItemSlot);
+        for (var i = 0; i < 6; i++)
         {
+            invCells[i].sprite = inventory.chosenItemSlot == i ? chosenSlotSprite : notChosenSlotSprite;
             if (inventory.GetItem(i) == null)
             {
                 icons[i].sprite = null;

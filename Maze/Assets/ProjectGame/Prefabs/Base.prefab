@@ -586,6 +586,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  chosenItemSlot: 0
 --- !u!1 &8375797016450238037
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,12 +898,12 @@ PrefabInstance:
     - target: {fileID: 4440683777101152745, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
         type: 3}
       propertyPath: m_ReferenceResolution.x
-      value: 800
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 4440683777101152745, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
         type: 3}
       propertyPath: m_ReferenceResolution.y
-      value: 800
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4440683777101152747, guid: 0bcdd55e1e4db8e4e85d16a9931c6aa9,
         type: 3}

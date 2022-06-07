@@ -19,7 +19,7 @@ public class DoorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        /*if (Input.GetKeyDown(KeyCode.E))
         {
             Ray ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
             RaycastHit hit;
@@ -54,13 +54,6 @@ public class DoorController : MonoBehaviour
                         door.isOpen = !door.isOpen;
                     }
                 }
-
-                if (hit.collider.GetComponent<Key>())
-                {
-                    Key key = hit.collider.GetComponent<Key>();
-                    keyList.Add(key);
-                    Destroy(key.gameObject);
-                }
             }
         }
         if (attention.alpha > 0)
@@ -73,5 +66,6 @@ public class DoorController : MonoBehaviour
         {
             timeToHide = 0;
         }
+        */
     }
 }
