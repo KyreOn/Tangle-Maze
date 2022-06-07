@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7c49b4-7852-422d-a42a-85c4c7e6a6e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InteractController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InteractController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/GoldenKey.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/UI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ProjectGame/Scripts/CollectableItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActivatableObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -101,7 +92,7 @@
       <workItem from="1640600313621" duration="4489000" />
       <workItem from="1640635377676" duration="13898000" />
       <workItem from="1654548041093" duration="4156000" />
-      <workItem from="1654604728277" duration="16827000" />
+      <workItem from="1654604728277" duration="18098000" />
     </task>
     <servers />
   </component>
