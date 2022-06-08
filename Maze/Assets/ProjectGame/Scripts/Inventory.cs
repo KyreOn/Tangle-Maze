@@ -98,7 +98,6 @@ public class Inventory : MonoBehaviour
             if (items[chosenItemSlot] != null)
             {
                 items[chosenItemSlot].Action();
-                Debug.Log("using item in slot "+(chosenItemSlot+1));
             }
         }
     }

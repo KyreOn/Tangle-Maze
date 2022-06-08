@@ -14,15 +14,15 @@ public class Key : aItem
     {
         var ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
         if (!Physics.Raycast(ray, out var hit, distance)) return;
-        if (!hit.collider.CompareTag("Door")) return;
+        if (!hit.collider.CompareTag("Interactable")) return;
         var door = hit.collider.GetComponent<Door>();
-        if (door.isLocked)
+        if (!door.isInteractable)
         {
+            Debug.Log("you here");
             var inventory = GameObject.Find("Player").GetComponentInChildren<Inventory>();
             if (id == door.id)
             {
-                door.isLocked = false;
-                door.isOpen = !door.isOpen;
+                door.isInteractable = true;
                 inventory.RemoveItem(door.id);
                 var audioSource = Instantiate(doorOpenAudioSource, GameObject.Find("Player").transform.position,
                     Quaternion.identity);
@@ -34,10 +34,6 @@ public class Key : aItem
                 attention.alpha = 1;
                 timeToHide = 0;
             }*/
-        }
-        else
-        {
-            door.isOpen = !door.isOpen;
         }
         /*if (attention.alpha > 0)
         {

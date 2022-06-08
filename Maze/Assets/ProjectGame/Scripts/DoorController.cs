@@ -1,71 +1,21 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DoorController : MonoBehaviour
+public class DoorController : Interactable
 {
-    public float distance = 2f;
-    List<Key> keyList;
     public TMP_Text attention;
     private float timeToHide;
-	[SerializeField] private AudioSource doorOpenAudioSource = null;
+    [SerializeField] private AudioSource doorOpenAudioSource;
 
-    void Start()
+    public override void OnInteract()
     {
-        keyList = new List<Key>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        /*if (Input.GetKeyDown(KeyCode.E))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, distance))
-            {
-                if (hit.collider.tag == "Door")
-                {
-                    Door door = hit.collider.GetComponent<Door>();
-                    if (door.isLocked)
-                    {
-                        var inventory = GameObject.Find("Player").GetComponentInChildren<Inventory>();
-                        foreach (var item in inventory.items)
-                        {
-                            if (item.id == door.id)
-                            {
-                                door.isLocked = false;
-                                door.isOpen = !door.isOpen;
-                                inventory.RemoveItem(door.id);
-								doorOpenAudioSource.Play();
-                                break;
-                            }
-                        }
-
-                        if (door.isLocked)
-                        {
-                            attention.alpha = 1;
-                            timeToHide = 0;
-                        }
-                    }
-                    else
-                    {
-                        door.isOpen = !door.isOpen;
-                    }
-                }
-            }
-        }
-        if (attention.alpha > 0)
-        {
-            timeToHide += Time.deltaTime;
-            if (timeToHide >= 3)
-                attention.alpha -= Time.deltaTime;
-        }
-        else
-        {
-            timeToHide = 0;
-        }
-        */
+        if (objectToInteract.isInteractable)
+            if (objectToInteract.isActivated == false)
+                objectToInteract.Activate();
+            else
+                objectToInteract.Deactivate();
     }
 }

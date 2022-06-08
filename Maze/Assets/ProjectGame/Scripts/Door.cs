@@ -1,9 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class Door : MonoBehaviour
+/*public class Door : MonoBehaviour
 {   [SerializeField]
     float openDoor;
     [SerializeField]
@@ -43,5 +44,33 @@ public class Door : MonoBehaviour
     void CloseDoor()
     {
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(transform.rotation.x, closeDoor, transform.rotation.z), speed * Time.deltaTime);
+    }
+}*/
+
+public class Door : Interactable
+{
+    [SerializeField] float openDoor;
+    [SerializeField] float closeDoor;
+    [SerializeField] float speed = 1;
+    [SerializeField] private AudioSource interactSound;
+
+    void Update()
+    {
+        if (isActivated)
+            transform.rotation = Quaternion.Slerp(transform.rotation, 
+                Quaternion.Euler(transform.rotation.x, openDoor, transform.rotation.z), speed * Time.deltaTime);
+        if (!isActivated)
+            transform.rotation = Quaternion.Slerp(transform.rotation, 
+                Quaternion.Euler(transform.rotation.x, closeDoor, transform.rotation.z), speed * Time.deltaTime);
+
+    }
+
+    public override void OnInteract()
+    {
+        if (isInteractable)
+        {
+            interactSound.Play();
+            isActivated = !isActivated;
+        }
     }
 }
