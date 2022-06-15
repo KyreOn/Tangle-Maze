@@ -3,26 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7c49b4-7852-422d-a42a-85c4c7e6a6e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActiveItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActiveItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Buttons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Buttons.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CollectableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CollectableItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/DoorController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/DoorController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/SilverKey.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/SilverKey.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Platform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/PlayerLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/PlayerLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/SampleActive.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/SampleActive.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Trigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Trigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/aItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/aItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +95,7 @@
       <workItem from="1640635377676" duration="13898000" />
       <workItem from="1654548041093" duration="4156000" />
       <workItem from="1654604728277" duration="22929000" />
-      <workItem from="1655292637083" duration="2519000" />
+      <workItem from="1655292637083" duration="2572000" />
     </task>
     <servers />
   </component>

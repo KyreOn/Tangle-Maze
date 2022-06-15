@@ -83,12 +83,12 @@ public class Inventory : MonoBehaviour
             OnInventoryChanged.Invoke();
         }
 
-        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0)
+        if (Input.GetAxisRaw("Mouse ScrollWheel") < 0)
         {
             chosenItemSlot = chosenItemSlot != 5 ? chosenItemSlot + 1 : chosenItemSlot;
             OnInventoryChanged.Invoke();
         }
-        if (Input.GetAxisRaw("Mouse ScrollWheel") < 0)
+        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0)
         {
             chosenItemSlot = chosenItemSlot != 0 ? chosenItemSlot - 1 : chosenItemSlot;
             OnInventoryChanged.Invoke();
