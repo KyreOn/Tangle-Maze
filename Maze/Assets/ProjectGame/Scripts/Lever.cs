@@ -19,9 +19,7 @@ public class Lever : Interactable
 
     public void Update()
     {
-        if (isActivated)
-            transform.rotation = Quaternion.Slerp(transform.rotation, activatedAngle, 2*Time.deltaTime);
-        if (!isActivated)
-            transform.rotation = Quaternion.Slerp(transform.rotation, deactivatedAngle, 2*Time.deltaTime);
+        transform.rotation = 
+            Quaternion.Slerp(transform.rotation, isActivated ? activatedAngle : deactivatedAngle, 2*Time.deltaTime);
     }
 }

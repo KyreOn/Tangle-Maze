@@ -14,10 +14,7 @@ public class Buttons : MonoBehaviour
 	}	
     public void StartGame()
     {
-		if (PlayerPrefs.HasKey("LastLevel"))
-        	SceneManager.LoadScene(PlayerPrefs.GetInt("LastLevel"));
-		else
-			SceneManager.LoadScene(1);
+	    SceneManager.LoadScene(PlayerPrefs.HasKey("LastLevel") ? PlayerPrefs.GetInt("LastLevel") : 1);
     }
 
     public void Exit()

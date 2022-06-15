@@ -20,11 +20,6 @@ public class Platform : ActivatableObject
 
     public void Update()
     {
-        if (isActivated) 
-            transform.position = Vector3.Lerp(transform.position, activatedPos, 
-                Time.deltaTime*0.5f*transform.position.y/activatedPos.y);
-        if (!isActivated) 
-            transform.position = Vector3.Lerp(transform.position, deactivatedPos, 
-                Time.deltaTime*0.5f*transform.position.y/deactivatedPos.y);
+        transform.position = isActivated ? Vector3.Lerp(transform.position, activatedPos, Time.deltaTime*0.5f*transform.position.y/activatedPos.y) : Vector3.Lerp(transform.position, deactivatedPos, Time.deltaTime*0.5f*transform.position.y/deactivatedPos.y);
     }
 }

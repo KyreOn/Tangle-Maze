@@ -5,11 +5,10 @@ using UnityEngine;
 
 public class CollectableItem : MonoBehaviour
 {
-    [SerializeField] private aItem item;
+    [SerializeField] private Item item;
     [SerializeField] private GameObject player;
     [SerializeField] private AudioSource sound;
-    public float distance = 2f;
-    
+
     private void OnTriggerEnter(Collider other)
     {
         var inventory = other.GetComponent<Inventory>();

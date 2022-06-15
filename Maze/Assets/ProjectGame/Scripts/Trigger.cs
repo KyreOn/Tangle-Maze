@@ -16,26 +16,23 @@ public class Trigger : MonoBehaviour
     private GameObject player;
     private PlayerLook playerLook;
 
-    void Start()
+    private void Start()
     {
         playerLook = player.GetComponent<PlayerLook>();
     }
-    
 
-    void OnTriggerEnter(Collider other)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            if (other.tag == "Player")
-            {
-                PauseManager.GetComponent<Pause>().isPaused = true;
-                PauseManager.GetComponent<Pause>().pausePanel.GetComponent<CanvasGroup>().alpha = 0;
-                levelEndPanel.SetActive(true);
-                playerLook.enabled = false;
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
-                Time.timeScale = 0;
-            }
+            PauseManager.GetComponent<Pause>().isPaused = true;
+            PauseManager.GetComponent<Pause>().pausePanel.GetComponent<CanvasGroup>().alpha = 0;
+            levelEndPanel.SetActive(true);
+            playerLook.enabled = false;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0;
         }
     }
 }

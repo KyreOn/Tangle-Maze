@@ -8,16 +8,16 @@ using UnityEngine.Events;
 [Serializable]
 public class InventoryCell
 {
-    public aItem item;
+    public Item item;
 }
 
 public class Inventory : MonoBehaviour
 {
-    [SerializeField] public List<aItem> items = new List<aItem>();
+    [SerializeField] public List<Item> items = new List<Item>();
     [SerializeField] private int maxSize = 6;
     [SerializeField] public UnityEvent OnInventoryChanged;
     public int chosenItemSlot;
-    public bool AddItem(aItem item)
+    public bool AddItem(Item item)
     {
         if (items.Count >= maxSize) return false;
         items.Add(item);
@@ -40,12 +40,12 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
-    public aItem GetItem(int i)
+    public Item GetItem(int i)
     {
         return i < items.Count ? items[i] : null;
     }
 
-    public int GetSize()
+    private int GetSize()
     {
         return items.Count;
     }

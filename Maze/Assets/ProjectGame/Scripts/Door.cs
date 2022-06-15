@@ -56,12 +56,13 @@ public class Door : Interactable
 
     void Update()
     {
+        var curRotation = transform.rotation;
         if (isActivated)
-            transform.rotation = Quaternion.Slerp(transform.rotation, 
-                Quaternion.Euler(transform.rotation.x, openDoor, transform.rotation.z), speed * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(curRotation, 
+                Quaternion.Euler(curRotation.x, openDoor, curRotation.z), speed * Time.deltaTime);
         if (!isActivated)
-            transform.rotation = Quaternion.Slerp(transform.rotation, 
-                Quaternion.Euler(transform.rotation.x, closeDoor, transform.rotation.z), speed * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(curRotation, 
+                Quaternion.Euler(curRotation.x, closeDoor, curRotation.z), speed * Time.deltaTime);
 
     }
 

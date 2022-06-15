@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 [CreateAssetMenu]
-public class Key : aItem
+public class Key : Item
 {
     public float distance = 2f;
     public TMP_Text attention;
