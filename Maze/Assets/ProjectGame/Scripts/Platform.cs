@@ -7,6 +7,7 @@ public class Platform : ActivatableObject
 {
     [SerializeField] public Vector3 deactivatedPos;
     [SerializeField] public Vector3 activatedPos;
+    [SerializeField] public float speed;
     public override void Activate()
     {
         isActivated = true;
@@ -20,6 +21,6 @@ public class Platform : ActivatableObject
 
     public void Update()
     {
-        transform.position = isActivated ? Vector3.Lerp(transform.position, activatedPos, Time.deltaTime*0.5f*transform.position.y/activatedPos.y) : Vector3.Lerp(transform.position, deactivatedPos, Time.deltaTime*0.5f*transform.position.y/deactivatedPos.y);
+        transform.position = isActivated ? Vector3.Lerp(transform.position, activatedPos, Time.deltaTime*0.5f*speed*transform.position.y/activatedPos.y) : Vector3.Lerp(transform.position, deactivatedPos, Time.deltaTime*0.5f*speed*transform.position.y/deactivatedPos.y);
     }
 }

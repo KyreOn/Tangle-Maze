@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7c49b4-7852-422d-a42a-85c4c7e6a6e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/SilverKey.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/SilverKey.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Prefabs/Base.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Round_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Round_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Platform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +97,7 @@
       <workItem from="1654548041093" duration="4156000" />
       <workItem from="1654604728277" duration="22929000" />
       <workItem from="1655292637083" duration="2572000" />
+      <workItem from="1655415156822" duration="3271000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,6 @@ public class Lever : Interactable
     public override void OnInteract()
     {
         isActivated = !isActivated;
-        Debug.Log(objectToInteract.isActivated);
         if (objectToInteract.isActivated == false)
             objectToInteract.Activate();
         else
