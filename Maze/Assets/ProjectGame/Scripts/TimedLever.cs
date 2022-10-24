@@ -10,6 +10,7 @@ public class TimedLever : Interactable
     [SerializeField] private GameObject progressBar;
     [SerializeField] private float time;
     private float curTime;
+
     public override void OnInteract()
     {
         if (!isActivated)
@@ -23,10 +24,10 @@ public class TimedLever : Interactable
             progressBar.SetActive(false);
         }
         curTime = 0;
-        if (objectToInteract.isActivated == false)
-            objectToInteract.Activate();
-        else
-            objectToInteract.Deactivate();
+        //if (objectToInteract.isActivated == false)
+        //    objectToInteract.Activate();
+        //else
+        //    objectToInteract.Deactivate();
     }
 
     public void Update()
@@ -42,7 +43,7 @@ public class TimedLever : Interactable
             else
             {
                 isActivated = false;
-                objectToInteract.Deactivate();
+                //objectToInteract.Deactivate();
             }
         }
         

@@ -10,7 +10,7 @@ public class Key : Item
     private float timeToHide;
     [SerializeField] private AudioSource doorOpenAudioSource;
     
-    public override void Action()
+    public override void Use()
     {
         var ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
         if (!Physics.Raycast(ray, out var hit, distance)) return;
@@ -18,7 +18,6 @@ public class Key : Item
         var door = hit.collider.GetComponent<Door>();
         if (!door.isInteractable)
         {
-            Debug.Log("you here");
             var inventory = GameObject.Find("Player").GetComponentInChildren<Inventory>();
             if (id == door.id)
             {

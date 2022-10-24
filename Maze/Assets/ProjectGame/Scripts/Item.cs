@@ -7,5 +7,5 @@ public abstract class Item : ScriptableObject
 {
     public int id;
     public Sprite icon;
-    public abstract void Action();
+    public abstract void Use();
 }
