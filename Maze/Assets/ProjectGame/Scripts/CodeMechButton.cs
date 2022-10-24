@@ -1,23 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CodeMechButton : Interactable
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] public Vector3 deactivatedPos;
+    [SerializeField] public Vector3 activatedPos;
 
     public override void OnInteract()
     {
-        throw new System.NotImplementedException();
+        isActivated = !isActivated;
+        isInteractable = false;
+    }
+
+    public void ResetPos()
+    {
+        isActivated = !isActivated;
+        isInteractable = true;
+    }
+
+    private void FixedUpdate()
+    {
+        Move(deactivatedPos, activatedPos);
     }
 }

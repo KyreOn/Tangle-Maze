@@ -3099,6 +3099,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1947866229734665246, guid: 23c07f49963a26b4094dfb6e62ad1331,
         type: 3}
+      propertyPath: isInteractable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947866229734665246, guid: 23c07f49963a26b4094dfb6e62ad1331,
+        type: 3}
       propertyPath: activatedAngle.w
       value: 0.70710677
       objectReference: {fileID: 0}
@@ -55785,6 +55790,11 @@ PrefabInstance:
         type: 3}
       propertyPath: activatedAngle
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947866229734665246, guid: 23c07f49963a26b4094dfb6e62ad1331,
+        type: 3}
+      propertyPath: isInteractable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1947866229734665246, guid: 23c07f49963a26b4094dfb6e62ad1331,
         type: 3}

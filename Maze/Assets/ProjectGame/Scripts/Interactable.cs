@@ -8,6 +8,6 @@ public abstract class Interactable : MoveableObjects
 {
     [SerializeField] public int id;
     [SerializeField] public UnityEvent onInteracted;
-    public bool isInteractable;
+    [SerializeField] public bool isInteractable = true;
     public abstract void OnInteract();
 }

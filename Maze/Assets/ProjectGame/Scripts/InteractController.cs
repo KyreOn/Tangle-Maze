@@ -25,7 +25,8 @@ public class InteractController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.F))
                 {
                     var interactable = hit.collider.GetComponent<Interactable>();
-                    interactable.onInteracted.Invoke();
+                    if (interactable.isInteractable)
+                        interactable.onInteracted.Invoke();
                 }
             }
         }

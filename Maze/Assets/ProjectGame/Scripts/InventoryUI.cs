@@ -16,7 +16,6 @@ public class InventoryUI : MonoBehaviour
         var canvasGroup = gameObject.GetComponent<CanvasGroup>();
         canvasGroup.alpha = 1;
         timeToHide = 0;
-        Debug.Log(inventory.chosenItemSlot);
         for (var i = 0; i < 6; i++)
         {
             invCells[i].sprite = inventory.chosenItemSlot == i ? chosenSlotSprite : notChosenSlotSprite;

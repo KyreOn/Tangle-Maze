@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7c49b4-7852-422d-a42a-85c4c7e6a6e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActivatableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/ActivatableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CodeMechButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CodeMechButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CodeMechanism.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CodeMechanism.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InteractController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InteractController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Interactable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Key.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Platform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/TimedLever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/TimedLever.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InventoryUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/MoveCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/MoveCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CodeMechTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CodeMechTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +103,7 @@
       <workItem from="1655415156822" duration="3271000" />
       <workItem from="1666362913860" duration="3334000" />
       <workItem from="1666458365889" duration="6358000" />
-      <workItem from="1666622066175" duration="1653000" />
+      <workItem from="1666622066175" duration="7331000" />
     </task>
     <servers />
   </component>
