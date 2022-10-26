@@ -11,7 +11,7 @@ public class TimedLever : Interactable
     [SerializeField] private float time;
     private float curTime;
 
-    public override void OnInteract()
+    public override void OnInteract(int _)
     {
         if (!isActivated)
         {

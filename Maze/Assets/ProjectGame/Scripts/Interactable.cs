@@ -7,7 +7,12 @@ using UnityEngine.Events;
 public abstract class Interactable : MoveableObjects
 {
     [SerializeField] public int id;
-    [SerializeField] public UnityEvent onInteracted;
+    [SerializeField] public Action<int> onInteracted;
     [SerializeField] public bool isInteractable = true;
-    public abstract void OnInteract();
+    public abstract void OnInteract(int id);
+
+    private void Awake()
+    {
+        onInteracted += OnInteract;
+    }
 }

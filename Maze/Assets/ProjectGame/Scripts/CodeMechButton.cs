@@ -9,7 +9,7 @@ public class CodeMechButton : Interactable
     [SerializeField] public Vector3 deactivatedPos;
     [SerializeField] public Vector3 activatedPos;
 
-    public override void OnInteract()
+    public override void OnInteract(int _)
     {
         isActivated = !isActivated;
         isInteractable = false;

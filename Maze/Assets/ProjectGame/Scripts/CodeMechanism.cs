@@ -14,6 +14,14 @@ public class CodeMechanism : MonoBehaviour
     private List<int> curSeq = new List<int>();
     private float curTimer;
 
+    private void Awake()
+    {
+        foreach (var button in buttons)
+        {
+            button.onInteracted += ButtonPressed;
+        }
+    }
+
     public void ButtonPressed(int id)
     {
         curSeq.Add(id);
@@ -26,7 +34,7 @@ public class CodeMechanism : MonoBehaviour
 
     private void Update()
     {
-        if (curSeq.Count == buttons.Count)
+        if (curSeq.Count == rightSeq.Length)
         {
             curTimer += Time.deltaTime;
             if (!(curTimer >= delayTime)) return;
@@ -39,7 +47,8 @@ public class CodeMechanism : MonoBehaviour
             {
                 foreach (var button in buttons)
                 {
-                    button.ResetPos();
+                    if (curSeq.Contains(button.id))
+                        button.ResetPos();
                 }
 
                 curSeq.Clear();

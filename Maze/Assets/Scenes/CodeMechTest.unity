@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 49605895}
   - component: {fileID: 49605896}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Button
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,33 +158,6 @@ MonoBehaviour:
   speed: 0.5
   isActivated: 1
   id: 2
-  onInteracted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1412738443}
-        m_TargetAssemblyTypeName: CodeMechanism, Assembly-CSharp
-        m_MethodName: ButtonPressed
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 49605895}
-        m_TargetAssemblyTypeName: CodeMechButton, Assembly-CSharp
-        m_MethodName: OnInteract
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   isInteractable: 1
   deactivatedPos: {x: 0, y: 0.01, z: 0}
   activatedPos: {x: 0, y: 0.1, z: 0}
@@ -309,7 +282,7 @@ GameObject:
   - component: {fileID: 298110382}
   - component: {fileID: 298110381}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -881,7 +854,7 @@ GameObject:
   - component: {fileID: 1032146966}
   - component: {fileID: 1032146965}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1009,7 +982,7 @@ GameObject:
   - component: {fileID: 1123909931}
   - component: {fileID: 1123909932}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Button
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1044,33 +1017,6 @@ MonoBehaviour:
   speed: 0.5
   isActivated: 1
   id: 0
-  onInteracted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1412738443}
-        m_TargetAssemblyTypeName: CodeMechanism, Assembly-CSharp
-        m_MethodName: ButtonPressed
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1123909931}
-        m_TargetAssemblyTypeName: CodeMechButton, Assembly-CSharp
-        m_MethodName: OnInteract
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   isInteractable: 1
   deactivatedPos: {x: 0, y: 0.01, z: 0}
   activatedPos: {x: 0, y: 0.1, z: 0}
@@ -1359,7 +1305,7 @@ GameObject:
   - component: {fileID: 1397261714}
   - component: {fileID: 1397261715}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Button
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1379,34 +1325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   isActivated: 1
-  id: 0
-  onInteracted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1412738443}
-        m_TargetAssemblyTypeName: CodeMechanism, Assembly-CSharp
-        m_MethodName: ButtonPressed
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1397261714}
-        m_TargetAssemblyTypeName: CodeMechButton, Assembly-CSharp
-        m_MethodName: OnInteract
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  id: 1
   isInteractable: 1
   deactivatedPos: {x: 0, y: 0.01, z: 0}
   activatedPos: {x: 0, y: 0.1, z: 0}
@@ -1534,7 +1453,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  rightSeq: 102
+  rightSeq: 210
   delayTime: 1
 --- !u!4 &1412738444
 Transform:
@@ -1563,7 +1482,7 @@ GameObject:
   - component: {fileID: 1579472357}
   - component: {fileID: 1579472356}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

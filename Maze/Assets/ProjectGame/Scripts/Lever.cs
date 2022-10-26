@@ -7,7 +7,7 @@ public class Lever : Interactable
 {
     [SerializeField] private Quaternion deactivatedAngle;
     [SerializeField] private Quaternion activatedAngle;
-    public override void OnInteract()
+    public override void OnInteract(int _)
     {
         isActivated = !isActivated;
     }

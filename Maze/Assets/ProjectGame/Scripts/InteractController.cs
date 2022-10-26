@@ -26,7 +26,7 @@ public class InteractController : MonoBehaviour
                 {
                     var interactable = hit.collider.GetComponent<Interactable>();
                     if (interactable.isInteractable)
-                        interactable.onInteracted.Invoke();
+                        interactable.onInteracted.Invoke(interactable.id);
                 }
             }
         }
