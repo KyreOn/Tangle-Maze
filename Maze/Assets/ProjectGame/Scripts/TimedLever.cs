@@ -30,24 +30,20 @@ public class TimedLever : Interactable
         //    objectToInteract.Deactivate();
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
+        Rotate(deactivatedAngle.eulerAngles, activatedAngle.eulerAngles);
         progressBar.transform.localScale = new Vector3(1 - curTime / time, 1, 1);
         if (isActivated)
         {
             if (curTime <= time)
             {
-                Debug.Log(curTime);
                 curTime += Time.deltaTime;
             }
             else
             {
-                isActivated = false;
-                //objectToInteract.Deactivate();
+                onInteracted.Invoke(id);
             }
         }
-        
-        transform.rotation = 
-            Quaternion.Slerp(transform.rotation, isActivated ? activatedAngle : deactivatedAngle, 2*Time.deltaTime);
     }
 }
