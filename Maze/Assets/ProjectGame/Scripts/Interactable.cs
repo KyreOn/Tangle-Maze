@@ -1,12 +1,18 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public abstract class Interactable : MonoBehaviour
+public abstract class Interactable : MoveableObjects
 {
     [SerializeField] public int id;
-    [SerializeField] public ActivatableObject objectToInteract;
-    public bool isActivated;
-    public bool isInteractable;
-    public abstract void OnInteract();
+    [SerializeField] public Action<int> onInteracted;
+    [SerializeField] public bool isInteractable = true;
+    public abstract void OnInteract(int id);
+
+    private void Awake()
+    {
+        onInteracted += OnInteract;
+    }
 }

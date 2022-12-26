@@ -97,7 +97,7 @@ public class Inventory : MonoBehaviour
         {
             if (items[chosenItemSlot] != null)
             {
-                items[chosenItemSlot].Action();
+                items[chosenItemSlot].Use();
             }
         }
     }

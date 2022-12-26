@@ -66,7 +66,7 @@ public class Door : Interactable
 
     }
 
-    public override void OnInteract()
+    public override void OnInteract(int _)
     {
         if (isInteractable)
         {

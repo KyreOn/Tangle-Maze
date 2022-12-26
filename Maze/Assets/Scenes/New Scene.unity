@@ -141,9 +141,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd80a4d38c4fba4186fa0d83d8ccf3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 228eafce2bc80a645ad8e355054eb695, type: 2}
+  item: {fileID: 0}
   player: {fileID: 1228930777}
-  distance: 2
+  sound: {fileID: 0}
 --- !u!135 &96496827
 SphereCollider:
   m_ObjectHideFlags: 0
