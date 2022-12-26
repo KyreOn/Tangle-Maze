@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maze_level_2.unity
     guid: 01e66266cb101744291fd118ace2bd4b
+  - enabled: 0
+    path: Assets/Scenes/CodeMechTest.unity
+    guid: 8ce7fbf34cf490d48aa401993e851c62
   m_configObjects: {}

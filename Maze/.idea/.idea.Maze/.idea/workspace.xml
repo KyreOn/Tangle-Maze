@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7c49b4-7852-422d-a42a-85c4c7e6a6e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CodeMechButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CodeMechButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CodeMechanism.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/CodeMechanism.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InteractController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/InteractController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Interactable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/Lever.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/TimedLever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectGame/Scripts/TimedLever.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CodeMechTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CodeMechTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze_level_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze_level_3.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -106,6 +104,7 @@
       <workItem from="1666458365889" duration="6358000" />
       <workItem from="1666622066175" duration="7331000" />
       <workItem from="1666801822148" duration="1086000" />
+      <workItem from="1668614937967" duration="2680000" />
     </task>
     <servers />
   </component>

@@ -18,7 +18,7 @@ public class CodeMechanism : MonoBehaviour
     {
         foreach (var button in buttons)
         {
-            button.onInteracted += ButtonPressed;
+            button.onInteracted.AddListener(ButtonPressed); 
         }
     }
 
