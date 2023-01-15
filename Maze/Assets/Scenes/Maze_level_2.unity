@@ -7800,6 +7800,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8375797016479195243, guid: 6f4cc106f42d28b4a81441253aecfc88,
         type: 3}
+      propertyPath: sprintSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375797016479195243, guid: 6f4cc106f42d28b4a81441253aecfc88,
+        type: 3}
       propertyPath: walkingSound
       value: 
       objectReference: {fileID: 8300000, guid: 1e7da377d68a1664f912ad50e1cd7db7, type: 3}

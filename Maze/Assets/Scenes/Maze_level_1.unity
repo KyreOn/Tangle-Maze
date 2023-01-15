@@ -3729,9 +3729,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd20bcba57e1056489e578d55db6a113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
-  objectToInteract: {fileID: 0}
+  speed: 1
   isActivated: 0
+  id: 0
+  onInteracted:
+    m_PersistentCalls:
+      m_Calls: []
   isInteractable: 0
   openDoor: -120
   closeDoor: 0
@@ -96492,7 +96495,7 @@ PrefabInstance:
     - target: {fileID: 8375797016479195243, guid: 6f4cc106f42d28b4a81441253aecfc88,
         type: 3}
       propertyPath: sprintSpeed
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8375797016479195243, guid: 6f4cc106f42d28b4a81441253aecfc88,
         type: 3}
